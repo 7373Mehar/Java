@@ -1,0 +1,31 @@
+Building application
+--------------------
+
+Aplication
+----------
+Set of programs is called application
+Remember every program has a file.In java that file is .class file
+This file is created by compiler
+
+Program
+-------
+It is set of methods.These methods are called by program to perform operation.Source code of the program will be written by you and it should be saved into .java file
+This file is called source code file
+This file will be given to the compiler and compiler will generate .class file after compilation
+
+Compilation:Generating executable code from the source code is called compilation.This is done by compiler
+In java this code is kept into one another file known as class file
+
+Method
+------
+It is set of executable commands/instructions/statements
+These commands are executed/run in a sequence to perform a specific task
+when method is called
+
+public class AA
+{
+  public void method1()
+  {
+	//commands1
+  }
+}
