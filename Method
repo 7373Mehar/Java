@@ -1,0 +1,22 @@
+public class MethodDemo
+{
+  static void method1()
+  {
+ System.out.print("Welcome ");
+  } 
+  static void method2()
+  {
+ System.out.println("Cetpa Infotech");
+  } 
+  static void method3()
+  {
+ System.out.print("to the ");
+  } 
+  public static void main(String[] args)
+  {
+ System.out.println("Program starts");
+ method1();
+ method3();
+ method2();
+  }
+}
