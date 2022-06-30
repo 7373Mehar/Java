@@ -1,0 +1,27 @@
+public class FindDigitsNotPresent
+{
+  public static void main(String [] args)
+  {
+ int num=2789,r,temp;
+ temp=num;
+ for(int d=0;d<=9;d++)
+ {
+         int c=0;
+    while(num!=0)
+    {
+  r=num%10;
+  if(d==r)
+  {
+    c=1;
+    break;   
+  }
+  num=num/10;
+    }
+    if(c==0)
+    {
+  System.out.println(d); 
+    }
+    num=temp;
+ } 
+  }
+}
