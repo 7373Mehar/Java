@@ -1,0 +1,5 @@
+Method overriding
+------------------
+To redefine parent class methods into child class is called method overriding
+
+This should be done when child  wants to change implementation of parent class methods

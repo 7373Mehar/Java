@@ -1,0 +1,103 @@
+Types of inheritance
+--------------------
+1)Single inheritance
+2)Multiple inheritance
+3)Multilevel inheritance
+4)Hierarchical inheritance
+5)Hybrid inheritance
+
+Single inheritance
+-------------------
+Parent class has only one child and no parent
+Child class has only one parent and no child
+public class AA
+{
+}
+public class BB extends AA
+{
+}
+
+Multiple inheritance
+--------------------
+In java multiple inheritance in not allowed in classes but it is allowed in interfaces
+C++ and python allows multiple inheritance in classes
+
+Multilevel inheritance
+-----------------------
+public class AA
+{
+}
+public class BB extends AA
+{
+}
+public class CC extends BB
+{
+}
+
+Hierarchical inheritance
+-----------------------
+class AA
+{
+}
+class BB extends AA
+{
+}
+class CC extends AA
+{
+}
+class DD extends AA
+{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

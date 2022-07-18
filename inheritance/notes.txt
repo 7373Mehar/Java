@@ -1,0 +1,41 @@
+Inheritance
+------------
+Acquiring properties of an exiting class into a new class is known as inheritance.
+
+public class AA
+{
+  //methods
+}
+public class BB extends AA
+{
+}
+
+class BB is child/sub/derived of class AA
+class AA is parent/super/base of class BB
+
+Object class is root class in java.
+It is super class of every class
+It means every class in java inherits properties from Object class.It has 11 methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
