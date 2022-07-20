@@ -1,0 +1,67 @@
+Implementation of interface
+---------------------------
+We will have to define a class by implementing interface.
+In this class we will have to override all abstract methods of that interface
+public interface AA
+{
+  void method1();
+}
+public class BB imlements AA
+{
+}
+
+Here class BB is implementation class of interface AA
+All abstract methods of interface must be overriden by implementation class
+
+"* A class can implement more than one interfaces *"
+public interface AA
+{
+}
+public interface BB
+{
+}
+public class CC implements AA,BB
+{
+}
+
+"* A class can extend and implement both*"
+public class AA
+{
+}
+public interface BB
+{
+}
+public class CC extends AA implements BB
+{
+}
+
+"* An interface can extend multiple interfaces*"
+public interface AA
+{
+}
+public interface BB
+{
+}
+public interface CC extends AA,BB
+{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

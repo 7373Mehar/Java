@@ -1,0 +1,2 @@
+Q:Implementation/body of methods allowed or not inside interface 
+It is allowed java8 onwards.But method should be defined either using static keywords or default keywords

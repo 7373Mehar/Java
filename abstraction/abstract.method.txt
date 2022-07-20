@@ -1,0 +1,18 @@
+Abstract class
+--------------
+Those classes that can not be instantiated are known as abstract classes
+Concrete class:The class that can be instantiated
+Final class:The class that can not be inherited
+
+It means object from abstract class can not be created
+Abstract class is always used as a parent
+Abstract class should be defined when we want to define abstract methods inside class
+Rule:Abstract methods will be overridden by child classes
+
+
+
+
+
+
+
+

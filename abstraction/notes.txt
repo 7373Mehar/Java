@@ -1,0 +1,50 @@
+Abstraction
+-----------
+Hiding non-essential details of the entity/object from the user is called abstraction
+In programming hiding complexity/implementation of thhe method is called abstraction
+It is achieved by following two ways
+
+1)By defining abstract class
+2)By defining interface
+
+Abstract method
+----------------
+Those methods that do not have body/implementation are known as abstract methods
+
+public abstract return-type method-name(argument-list);
+
+public abstract void findShapeArea();
+
+Rule:Abstract methods can be defined only inside abstract class or inside interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
