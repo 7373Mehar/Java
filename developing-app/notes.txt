@@ -1,0 +1,101 @@
+Developing application
+-----------------------
+As we know an application can have following three layers
+1)Presentation layer
+2)Business layer
+3)Data layer
+
+Developing presentation layer of the application
+-------------------------------------------------
+This layer is also known as UI(User interface)
+To develop this UI we will use following two APIs
+1)Swing API
+2)AWT(Abstract windowning tooklit) API
+
+Every UI consists of components(such as frame,button,textboxes,passwordbox,checkbox,labels)
+Our program will create objects for these components
+Code ot create objects should be written by you
+
+import packagename.classname;
+or
+import packagename.*;
+
+We will use classes of following two packages in GUI
+1)javax.swing
+b)java.awt
+
+Component		Class in swing package
+----------		--------------------
+frame			JFrame
+button			JButton
+textbox			JTextField
+passwordbox		JPasswordField
+label			JLabel
+checkbox		JCheckBox
+
+
+JFrame
+------
+It is main component of GUI.
+Object of this class will be used as frame/window of the GUI
+
+JFrame fr=new JFrame();
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
