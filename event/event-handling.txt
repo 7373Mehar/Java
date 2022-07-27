@@ -1,0 +1,49 @@
+Event
+-----
+Performing task by application on user interaction is event
+Remember user will interact with component of UI
+This component will be called event source
+To perform the task we will have to define/override method
+This method will be called event handler
+(This method is already defined(inside interface) without implementation and calling code of this method is also defined)
+Remember method is overrideen inside s class, so we will have to make this class also.This class will be called event listener
+This class should be defined by implementing one of the following interface
+1)ActionListener interface
+2)MouseListener interface
+3)KeyListener interface
+etc
+java.awt.event package contains these interface
+(We can define listener class inside our UI class)
+
+Note:Event handler(method) will be called by event source(component)
+We will have to give reference of listener class object to the event source
+This is called registration of listener with source
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
