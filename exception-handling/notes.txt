@@ -1,0 +1,116 @@
+Exception
+----------
+During execution of program, some abnormal conditions/situtations (divide by 0,array index beyond the bound,accessing file that does not exist,connecting to the database and it is not running)might be occurred.These abnormal conditions are known as exceptions.Due to these exceptions prgoram can be terminated.So we will have to handle these exceptions
+In this case program will not be terminated.
+
+Exception handling
+------------------
+Following two blocks should be defined inside code to handle exception
+1)try block
+2)catch block
+
+try block
+----------
+In this block we will have to write those commands that might throw exception
+try
+{
+  //commands
+}
+
+catch block
+------------
+Just after try block,put catch block.Inside parehnthesis of this block define argument of excception handler and inside body of the block define code to display exception information
+
+catch(ArithmeticException ex)
+{
+  System.out.println(ex);
+}
+
+Checked exceptions
+------------------
+Those exceptions for whcih try and catch is mandatory, are known as
+checked exceptions.Compiler will check existense of exception handler(try and catch) inside the code.If not found then compiler will generate error.These exceptions are also known as compile time exceptions.Few checked exceptions are as follows
+1)FileNotFoundException class
+2)IOException class
+3)InterruptedException class
+4)SqlException class
+etc
+
+Unchecked exceptions
+---------------------
+Those exceptions for which exception handler is not mandatory, are known as unchecked exceptions.These exceptions can be prevented by applying conditions.Handler for these exceptions will not be checked by compiler that's why these exceptions are known as unchecked exception.These exceptions are also known as runtime exceptions.Few unchecked exceptions are as follows
+1)ArithmeticException class
+2)ArrayIndexOutOfBoundsException class
+3)NullPointerException class
+4)ClassCastException class
+etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+Life cycle of threads
+---------------------
+Life cycle of the thread is managed by thread-schedular.Thread-schedular is a component of JVM
+It is dependenct upon OS-schedular
+Life cycle of thread has following five phases
+
+1)New thread:When thread is created(object is created)
+2)Runnable:When thread is started(start() method is called).Multiple threads can be in this state
+3)Running:when it gets chance for execution.Only one thread can be in this state at a time.In this phase run() method is called
+4)Non-runnable:We can send a running thread into this state.There will be pause in the execution of running thread.We can call methods for this
+5)Terminated :When execution of run method over.
