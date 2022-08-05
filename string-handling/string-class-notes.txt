@@ -1,0 +1,25 @@
+String class
+------------
+It is an immutable class.Immutable means non-modifiable
+It means string stored by String class object can not be modified/changed
+Remember StringBuffer and StringBuilder classes are mutable
+StringBuffer is synchronized class while StringBuilder is non-synchronized class
+
+Remember object of String class is created autometically for each string value
+This object is created in string constant pool area(it is also called intern pool)
+Remember object using new keyword is created in heap area
+Only one object of Stirng class is created for same string value
+
+String str1="It is an immutable class.Immutable means non-modifiable";
+String str2="It is an immutable class.Immutable means non-modifiable";
+String str3="It is an immutable class.Immutable means non-modifiable";
+String str4="It is an immutable class.Immutable means non-modifiable";
+String str5="It is an immutable class.Immutable means non-modifiable";
+
+Only one object of String class will be created for above string and reference of that object will be stored by each variable(str1,str2,str2,str4 and str5)
+
+
+
+
+
+

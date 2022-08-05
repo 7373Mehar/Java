@@ -1,0 +1,47 @@
+String 
+-------
+It is set of characters or array of characters
+"8810436567"
+"rehanahmad9919@gmail.com"
+"Rehan Ahmad"
+
+char type array is required to keep string in memory
+In java this array will be created autometically,It means code to create array is predefined.Following three classes have this code
+1)String class
+2)StringBuffer class
+3)StringBuilder class
+These classes are in java.lang package
+
+We need to write code to create object of these classes to store string
+String str1=new String("Rehan Ahmad");
+StringBuffer str2=new StringBuffer("8810436567");
+StringBuilder str3=new StringBuilder("rehanahmad9919@gmail.com");
+
+public String toString()
+-------------------------
+It is a method of Object class.Remember Object class is parent of every class in java.So every java class has this method
+This method is called autometically when reference variable name is passed to the println() or print() method
+In this case value returned by toString() method will be displayed/shown
+tostring() method of Object class always returns combination following value
+
+1)Classname
+2)@
+3)Hexadecimal value of object's hashcode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
