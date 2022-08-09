@@ -1,0 +1,38 @@
+1)Override run() method of Runnable interface
+2)Create threads
+3)Start threads
+
+
+Thread class has already implemented Runnable interface, so we can ovverride run() method by inheriting from Thread class too
+
+public class Task extends Thread
+{
+  public void run()
+  {
+	//code
+  }
+}
+
+Task th=new Task();
+th.start();
+
+Main thread
+-----------
+For evrery java program, JVM creates and starts a thread.This thread is called main thread.This thread has responsibility to call main() method of java program
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

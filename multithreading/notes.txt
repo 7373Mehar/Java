@@ -1,0 +1,6 @@
+Multithreading
+--------------
+It is one of the way to achieve multitasking.
+By using multithreading we can build multitasking application/program
+Multitasking means performing more than one tasks simultaneously
+Multitasking application creates and starts multiple threads at a time(one thread per task)

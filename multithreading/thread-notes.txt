@@ -1,0 +1,54 @@
+Thread
+------
+It is smallest unit of processing.Our multitasking program will create and start thread.Every thread is represented in the form of objects.
+Code to create this object should be written by you.
+java.lang.Thread class object or it's child class object should be created as a thread
+
+Thread th=new Thread();//It will create a thread
+or
+class AA extends Thread
+{
+ //code
+}
+AA th=new AA();//It will create a thread
+
+After write code to create thread, write code to start thread
+th.start();
+start() is a method of Thread class
+
+Before creating and starting thread, you will have to override run() method of java.lang.Runnale interface
+In this method you will have to write code(Task that will be performed by each thread)
+
+public class Task implements Runnable
+{
+  public void run()
+  {
+	//code to perform task
+  }
+}
+
+After overriding run() method write code to create thread and start thread in your application class
+Thread th=new Thread(new Task());
+th.start();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
