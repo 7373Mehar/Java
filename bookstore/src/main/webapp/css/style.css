@@ -1,0 +1,103 @@
+.dvv{
+	text-align: center;
+	margin-top:2vw;
+}
+.ddv{
+	text-align: center;
+	margin-top:1vw;
+}
+.dv{
+	text-align: center;
+	margin-top:4vw;
+}
+.lah{
+	font-size:2vw;
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+}
+.la{
+	font-size:1.5vw;
+}
+.laa{
+	font-size:1.2vw;
+}
+.btl{
+	background-color: white;
+  	border: none;
+  	color: blue;
+  	padding: .4vw 2vw;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 1.5vw;
+  	margin-left: 1vw;
+  	border-radius:.4vw;
+}
+.btl:hover{
+	text-decoration: underline;
+	color:black;
+}
+.tb{
+	font-size:1.8vw;
+	width:100%;
+}
+.tbb{
+	height:3vw;
+	width:100%;
+}
+.btr{
+	background-color: #008CBA;
+  	border: none;
+  	color: white;
+  	padding: .2vw 2vw;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 1.5vw;
+  	border-radius:.4vw;
+  	height:3vw;
+  	cursor:pointer;
+}
+.btr1{
+	background-color: #008CBA;
+  	border: none;
+  	color: white;
+  	padding: .5vw 2vw;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 1.5vw;
+  	border-radius:.4vw;
+  	height:4vw;
+  	cursor:pointer;
+}
+span{
+	color:red;
+}
+.an{
+	font-size:2vw;
+	margin-left:1.6vw;
+	text-decoration: underline;
+}
+.anc{
+	font-size:2.2vw;
+	margin-left:1.6vw;
+	text-decoration: underline;
+	color:magenta;
+}
+.oc{
+	background-color: orange;
+}
+.scrollit {
+    overflow:scroll;
+    height:53vh;
+}
+.scrollit thead th {
+      position: sticky;
+      background:teal;
+      color:white;
+      top: 0;
+}
+.bgi{
+	background-image:url('/bookstore/images/home1.jfif');
+}
+
+
+    
