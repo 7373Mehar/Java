@@ -1,0 +1,6 @@
+SessionFactory:
+
+SessionFactory is an Interface which is present in org.hibernate package and it is used to create Session Object.
+It is immutable and thread-safe in nature.
+buildSessionFactory() method gathers the meta-data which is in the cfg Object. 
+From cfg object it takes the JDBC information and create a JDBC Connection
